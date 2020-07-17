@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+#page-heading{
+    text-align: center;
+    margin: 25px;
+    color: grey;
+}
+
+.center {
+    padding: 70px 0;
+    border: 3px solid green;
+    text-align: center;
+  }
+  p{
+ display: inline;
+  }
+  
+  .contact .details{
+      display: flex;
+      flex-direction: row ;
+      flex-wrap: wrap;
+      width: 90%;
+  }
+
+  .contact .delete-button{
+      width: 10%;
+      padding: 3px;
+  }
